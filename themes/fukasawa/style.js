@@ -16,7 +16,8 @@ const Style = () => {
     
     /* fukasawa的首页响应式分栏 */
     #theme-fukasawa .grid-item {
-        height: auto;
+        // height: auto;
+        height: 375px;
         break-inside: avoid-column;
         margin-bottom: .5rem;
     }
